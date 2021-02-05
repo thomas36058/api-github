@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.formulario{
+    padding-bottom: 50px;
+}
+
+.resultado, .repos{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #EAEAEA;
+    margin-bottom: 20px;
+    min-width: 400px;
+    text-align: center;
+}
+
+.resultado img{
+    max-width: 120px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.resultado p, .resultado a{
+    margin-bottom: 5px;
+}
+
+.repos .item{
+    padding-bottom: 10px;
+}
+
+hr{
+   width: 50%; 
+}
+
